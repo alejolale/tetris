@@ -1,9 +1,11 @@
 /* eslint-disable no-unused-expressions */
 import React from 'react';
+import { StyledCell } from './styles/StyledCell';
+import { TETROMINUS } from '../tetrominus';
 
 const Cell = ({ type }) => {
     return(
-        <div>Cell</div>
+        <StyledCell type={'L'} color={TETROMINUS['L'].color}>Cell</StyledCell>
     );
 }
 
